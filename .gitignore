@@ -1,0 +1,7 @@
+.tmp
+dist
+extension.tar.br
+node_modules
+*.log
+*.tgz
+*.tsbuildinfo

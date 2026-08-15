@@ -1,0 +1,14 @@
+{
+  "id": "builtin.language-basics-roc",
+  "name": "Language Basics Roc",
+  "description": "Provides syntax highlighting and bracket matching in Roc files.",
+  "languages": [
+    {
+      "id": "roc",
+      "extensions": [".roc"],
+      "tokenize": "src/tokenizeRoc.js",
+      "configuration": "languageConfiguration.json"
+    }
+  ],
+  "repository": "https://github.com/lvce-editor/language-basics-roc"
+}

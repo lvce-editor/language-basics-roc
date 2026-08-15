@@ -1,0 +1,29 @@
+{
+  "name": "builtin.language-basics-roc",
+  "version": "0.0.0-dev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js ./test/cases --only-extension=.",
+    "format": "prettier --write .",
+    "lint": "eslint . && prettier --check .",
+    "test": "test-syntax-highlighting",
+    "type-check": "tsc -p tsconfig.json"
+  },
+  "author": "Lvce Editor",
+  "license": "MIT",
+  "devDependencies": {
+    "@lvce-editor/eslint-config": "^18.4.0",
+    "@lvce-editor/package-extension": "^3.7.0",
+    "@lvce-editor/server": "^0.100.23",
+    "@lvce-editor/shared-process": "^0.100.23",
+    "@lvce-editor/test-syntax-highlighting": "^1.3.0",
+    "eslint": "^10.8.1",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
